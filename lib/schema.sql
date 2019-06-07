@@ -6,7 +6,11 @@ species TEXT,
 authors_id INTEGER, 
 series_id INTEGER); 
 
-CREATE TABLE books ( id PRIMARY KEY INTEGER, title TEXT, year INTEGER, series_id INTEGER);  
+CREATE TABLE books ( 
+id PRIMARY KEY INTEGER,
+title TEXT, 
+year INTEGER, 
+series_id INTEGER);  
 
 CREATE TABLE series ( id PRIMARY KEY INTEGER, title TEXT, author_id INTEGER, sub_genre_id INTEGER);  
 
