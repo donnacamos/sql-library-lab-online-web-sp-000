@@ -22,7 +22,7 @@ CREATE TABLE authors (
 id PRIMARY KEY INTEGER, 
 name TEXT); 
 
-CREATE TABLE sub_genres ( 
+CREATE TABLE subgenres ( 
 id PRIMARY KEY INTEGER, 
 name TEXT);
 
