@@ -18,6 +18,11 @@ title TEXT,
 authors_id INTEGER,
 subgenre_id INTEGER);  
 
-CREATE TABLE authors ( id PRIMARY KEY INTEGER, name TEXT); 
+CREATE TABLE authors ( 
+id PRIMARY KEY INTEGER, 
+name TEXT); 
 
-CREATE TABLE sub_genres ( id PRIMARY KEY INTEGER, name TEXT);
+CREATE TABLE sub_genres ( 
+id PRIMARY KEY INTEGER, 
+name TEXT);
+
