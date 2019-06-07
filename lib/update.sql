@@ -1,1 +1,1 @@
-UPDATE characters SET species = "Martian" WHERE species = "Giant Spider" 
+UPDATE characters SET species = "Martian" WHERE species = "Giant Spider"; 
