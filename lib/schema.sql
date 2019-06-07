@@ -12,7 +12,11 @@ title TEXT,
 year INTEGER, 
 series_id INTEGER);  
 
-CREATE TABLE series ( id PRIMARY KEY INTEGER, title TEXT, author_id INTEGER, sub_genre_id INTEGER);  
+CREATE TABLE series ( 
+id PRIMARY KEY INTEGER,
+title TEXT, 
+authors_id INTEGER,
+subgenre_id INTEGER);  
 
 CREATE TABLE authors ( id PRIMARY KEY INTEGER, name TEXT); 
 
