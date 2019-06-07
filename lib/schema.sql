@@ -4,6 +4,6 @@ CREATE TABLE books ( id PRIMARY KEY INTEGER, title TEXT, year INTEGER, series_id
 
 CREATE TABLE series ( id PRIMARY KEY INTEGER, title TEXT, author_id INTEGER, sub_genre_id INTEGER);  
 
-CREATE TABLE authors (); 
+CREATE TABLE authors ( id PRIMARY KEY INTEGER, name TEXT); 
 
 CREATE TABLE sub_genres ();
