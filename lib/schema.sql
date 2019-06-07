@@ -26,4 +26,7 @@ CREATE TABLE subgenres (
 id PRIMARY KEY INTEGER, 
 name TEXT);
 
-CREATE TABLE character_books
+CREATE TABLE character_books (
+id PRIMARY KEY INTEGER, 
+
+)
