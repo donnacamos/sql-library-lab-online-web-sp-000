@@ -22,12 +22,14 @@ CREATE TABLE series (
   );  
 
 CREATE TABLE authors ( 
-id PRIMARY KEY INTEGER, 
-name TEXT); 
+  id PRIMARY KEY INTEGER, 
+  name TEXT 
+  ); 
 
 CREATE TABLE subgenres ( 
-id PRIMARY KEY INTEGER, 
-name TEXT);
+  id PRIMARY KEY INTEGER, 
+  name TEXT
+  );
 
 CREATE TABLE character_books (
 id PRIMARY KEY INTEGER, 
