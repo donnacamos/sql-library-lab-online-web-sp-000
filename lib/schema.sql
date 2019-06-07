@@ -6,4 +6,4 @@ CREATE TABLE series ( id PRIMARY KEY INTEGER, title TEXT, author_id INTEGER, sub
 
 CREATE TABLE authors ( id PRIMARY KEY INTEGER, name TEXT); 
 
-CREATE TABLE sub_genres ();
+CREATE TABLE sub_genres ( id PRIMARY KEY INTEGER, name TEXT);
