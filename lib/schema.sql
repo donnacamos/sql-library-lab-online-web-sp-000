@@ -32,7 +32,7 @@ CREATE TABLE subgenres (
   );
 
 CREATE TABLE character_books (
-  id PRIMARY KEY INTEGER, 
+  id INTEGER PRIMARY KEY, 
   character_id INTEGER, 
   book_id INTEGER 
   );
