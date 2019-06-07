@@ -24,7 +24,7 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (8, "Character Four", "motto four", "cylon", 2, 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1);
-(2, 1, 2);
+INSERT INTO character_books (id, book_id, character_id) VALUES (2, 1, 2);
 (3, 2, 2);
 (4, 3, 2); 
 (5, 1, 3); 
