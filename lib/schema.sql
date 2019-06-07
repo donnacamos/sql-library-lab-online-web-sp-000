@@ -2,7 +2,7 @@ CREATE TABLE characters ( id PRIMARY KEY INTEGER, name TEXT, motto TEXT, species
 
 CREATE TABLE books ( id PRIMARY KEY INTEGER, title TEXT, year INTEGER, series_id INTEGER);  
 
-CREATE TABLE series (); 
+CREATE TABLE series ( id PRIMARY KEY INTEGER, title TEXT, author_id INTEGER, sub_genre_id INTEGER);  
 
 CREATE TABLE authors (); 
 
