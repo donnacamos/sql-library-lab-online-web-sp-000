@@ -15,10 +15,11 @@ CREATE TABLE books (
   );  
 
 CREATE TABLE series ( 
-id PRIMARY KEY INTEGER,
-title TEXT, 
-authors_id INTEGER,
-subgenre_id INTEGER);  
+  id PRIMARY KEY INTEGER,
+  title TEXT, 
+  authors_id INTEGER,
+  subgenre_id INTEGER
+  );  
 
 CREATE TABLE authors ( 
 id PRIMARY KEY INTEGER, 
