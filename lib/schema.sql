@@ -1,5 +1,5 @@
 CREATE TABLE characters ( 
-  id PRIMARY KEY INTEGER, 
+  id INTEGER PRIMARY KEY, 
   name TEXT,
   motto TEXT, 
   species TEXT, 
