@@ -1,16 +1,18 @@
 CREATE TABLE characters ( 
   id PRIMARY KEY INTEGER, 
-name TEXT,
-motto TEXT, 
-species TEXT, 
-author_id INTEGER, 
-series_id INTEGER); 
+  name TEXT,
+  motto TEXT, 
+  species TEXT, 
+  author_id INTEGER, 
+  series_id INTEGER
+  ); 
 
 CREATE TABLE books ( 
-id PRIMARY KEY INTEGER,
-title TEXT, 
-year INTEGER, 
-series_id INTEGER);  
+  id PRIMARY KEY INTEGER,
+  title TEXT, 
+  year INTEGER, 
+  series_id INTEGER
+  );  
 
 CREATE TABLE series ( 
 id PRIMARY KEY INTEGER,
